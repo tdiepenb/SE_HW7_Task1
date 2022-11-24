@@ -1,2 +1,5 @@
-package de.uni.koeln.sse.se;public class HouseholdItem {
+package de.uni.koeln.sse.se;
+
+public interface HouseholdItem {
+
 }
