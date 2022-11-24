@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23a2f682-b789-472a-834a-71ca3d8ed930" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE_HW7_Task1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/uni/koeln/sse/se/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/uni/koeln/sse/se/Electronic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/uni/koeln/sse/se/Furniture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/uni/koeln/sse/se/Glass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/uni/koeln/sse/se/HouseholdItem.java" afterDir="false" />
+    <list default="true" id="23a2f682-b789-472a-834a-71ca3d8ed930" name="Changes" comment="Adds code from template">
+      <change afterPath="$PROJECT_DIR$/src/de/uni/koeln/sse/se/MovingCostCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/uni/koeln/sse/se/PackingInstructionsPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/uni/koeln/sse/se/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/uni/koeln/sse/se/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uni/koeln/sse/se/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/uni/koeln/sse/se/Electronic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uni/koeln/sse/se/Electronic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/uni/koeln/sse/se/Furniture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uni/koeln/sse/se/Furniture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/uni/koeln/sse/se/Glass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uni/koeln/sse/se/Glass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/uni/koeln/sse/se/HouseholdItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/uni/koeln/sse/se/HouseholdItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "OverrideImplement.generate.javadoc": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false"
@@ -55,8 +54,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669248359727</updated>
-      <workItem from="1669248361230" duration="1697000" />
+      <workItem from="1669248361230" duration="8810000" />
     </task>
+    <task id="LOCAL-00001" summary="Adds code from template">
+      <created>1669250243746</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669250243746</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,5 +79,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adds code from template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds code from template" />
   </component>
 </project>

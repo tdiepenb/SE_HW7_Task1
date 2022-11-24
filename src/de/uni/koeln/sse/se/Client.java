@@ -27,6 +27,16 @@ public class Client{
         List<HouseholdItem> namesList = Arrays.asList(microwaveOven,tv,wineGlass,coffeeTable,bed,cupboard );
         householdItmes.addAll(namesList);
 
+        for (HouseholdItem h: householdItmes) {
+           // h.accept(new MovingCostCalculator());
+            new MovingCostCalculator().calculateMovingCost(h);
+        }
+
+        for (HouseholdItem h: householdItmes) {
+            // h.accept(new PackingInstructionsPrinter());
+           new PackingInstructionsPrinter().printPackingInstructions(h);
+        }
+
 
     }
 

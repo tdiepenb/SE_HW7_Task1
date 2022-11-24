@@ -23,8 +23,12 @@ public class Electronic implements HouseholdItem{
         this.fragile = fragile;
     }
 
+    @Override
+    public void accept(Visitor v) {
+        v.visitElectronic(this);
+    }
 
-//Getters and Setters
+    //Getters and Setters
 
     public int getHeight() {
         return height;}
