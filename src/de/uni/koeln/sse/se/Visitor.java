@@ -8,6 +8,7 @@ public interface Visitor {
      * @param g
      */
     public void visitGlass(Glass g);
+
     /**
      * Visits a HouseholdItem Furniture f
      *

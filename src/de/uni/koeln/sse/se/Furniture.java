@@ -1,6 +1,6 @@
 package de.uni.koeln.sse.se;
 
-public class Furniture implements HouseholdItem{
+public class Furniture implements HouseholdItem {
 
     String name;
     String type;
@@ -31,42 +31,53 @@ public class Furniture implements HouseholdItem{
 //Getters and Setters
 
 
-
     public int getHeight() {
-        return height;}
+        return height;
+    }
 
     public void setHeight(Integer height) {
-        this.height = height;}
+        this.height = height;
+    }
 
     public int getLenght() {
-        return lenght;}
+        return lenght;
+    }
 
     public void setLenght(Integer lenght) {
-        this.lenght = lenght;}
+        this.lenght = lenght;
+    }
 
     public int getWidth() {
-        return width;	}
+        return width;
+    }
 
     public void setWidth(Integer width) {
-        this.width = width;}
+        this.width = width;
+    }
 
     public int getWeight() {
-        return weight;}
+        return weight;
+    }
 
     public void setWeight(Integer weight) {
-        this.weight = weight;}
+        this.weight = weight;
+    }
 
     public String getType() {
-        return type;}
+        return type;
+    }
 
     public void setType(String type) {
-        this.type = type;}
+        this.type = type;
+    }
 
     public String getName() {
-        return name;}
+        return name;
+    }
 
     public void setName(String name) {
-        this.name = name;}
+        this.name = name;
+    }
 
 
 }

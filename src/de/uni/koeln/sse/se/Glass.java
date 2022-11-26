@@ -1,6 +1,6 @@
 package de.uni.koeln.sse.se;
 
-public class Glass implements HouseholdItem{
+public class Glass implements HouseholdItem {
 
     String name;
     int lenght;
@@ -28,28 +28,36 @@ public class Glass implements HouseholdItem{
 //Getters and Setters =
 
     public int getHeight() {
-        return height;}
+        return height;
+    }
 
     public void setHeight(int height) {
-        this.height = height;}
+        this.height = height;
+    }
 
     public int getLenght() {
-        return lenght;}
+        return lenght;
+    }
 
     public void setLenght(int lenght) {
-        this.lenght = lenght;}
+        this.lenght = lenght;
+    }
 
     public int getWidth() {
-        return width;}
+        return width;
+    }
 
     public void setWidth(int width) {
-        this.width = width;}
+        this.width = width;
+    }
 
     public Integer getTickness() {
-        return tickness;}
+        return tickness;
+    }
 
     public void setTickness(int tickness) {
-        this.tickness = tickness;}
+        this.tickness = tickness;
+    }
 
     public String getName() {
         return name;
@@ -58,9 +66,6 @@ public class Glass implements HouseholdItem{
     public void setName(String name) {
         this.name = name;
     }
-
-
-
 
 
 }
